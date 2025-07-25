@@ -2,7 +2,7 @@
 
 The domain environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. The company has introduction and appointment web pages (see repository physio-web-pages). The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
 
-The report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. The summary in English can be found below.
+The project report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. The summary in English can be found below.
 
 ## Using Cyber Threat Management and Protection Measures
 
@@ -15,6 +15,8 @@ The Windows workstation was updated via Windows Update. The Device Manager was c
 Windows workstation management in a domain environment was implemented using Windows server management consoles, group policies (GPO) and Powershell. The following management consoles were used: Server Manager, ADUC, ADDS, FSRM, DHCP, DNS Manager, Event Viewer, GPMC, Windows Server Backup and Print Management. GPO was used to implement, for example, password length settings, daily updates of workstations and department-specific public folders. Powershell was used to practice automating tasks (searching for users by name, searching for users in a specific OU, adding a user).
 
 ### Comparing and Selecting Encryption Methods
+
+Different encryption methods were compared and the encryption methods needed for the customer environment were mapped and planned: Bitlocker protection for workstations, HTTPS/TLS protection for communication on appointment pages, VPN for remote processing of customer data, S/MIME for email encryption, Bitwarden for password protection, Node.js' bcrypt library for password hashing and Windows Hello for MFA. As a case example, the implementation of Bitlocker as a GPO was planned and started. As a separate practical example, the OpenStego encryption task of the Testout Security Pro course was done.
 
 ## Managing Cybersecurity Risks
 

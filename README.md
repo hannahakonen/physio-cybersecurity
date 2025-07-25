@@ -2,6 +2,8 @@
 
 The domain environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. The company has introduction and appointment web pages (see repository physio-web-pages). The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
 
+The report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. The summary in English can be found below.
+
 ## Using Cyber Threat Management and Protection Measures
 
 ### Protecting Devices with Updates and Software

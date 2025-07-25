@@ -15,14 +15,23 @@ The (unfinished) summary in English can be found below.
 ### Protecting Devices with Updates and Software (Appendix 1)
 
 The Windows workstation was updated via Windows Update. 
+
 The Device Manager was checked to see if any devices needed a driver update. 
+
 The Communication Port (COM1) drivers were updated by automatically searching for drivers. 
+
 New versions of the firmware were searched for on the manufacturer's website. 
+
 The router was updated. 
+
 Windows protection was ensured to be up to date. 
+
 App & Browser Control was enabled.
+
 A full scan was performed in the Virus & threat Protection settings. 
+
 The Windows Firewall was configured with a few rules.
+
 
 ### Managing Workstations with Management Tools (Appendix 2)
 

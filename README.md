@@ -1,14 +1,25 @@
 # Cybersecurity Planning, Implementation and Maintaining for a Fictitious Physiotherapy Center Physio
 
-The domain environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. The company has introduction and appointment web pages (see repository physio-web-pages). The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
+The domain environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. 
+The company has introduction and appointment web pages (see repository physio-web-pages). 
+The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
 
-The project report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. The summary in English can be found below.
+The project report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. 
+The (unfinished) summary in English can be found below.
 
 ## Using Cyber Threat Management and Protection Measures
 
 ### Protecting Devices with Updates and Software (Appendix 1)
 
-The Windows workstation was updated via Windows Update. The Device Manager was checked to see if any devices needed a driver update. The Communication Port (COM1) drivers were updated by automatically searching for drivers. New versions of the firmware were searched for on the manufacturer's website. The router was updated. Windows protection was ensured to be up to date. App & Browser Control was enabled. A ful scan was performed in the Virus & threat Protection settings. The Windows Firewall was configured with a few rules.
+The Windows workstation was updated via Windows Update. 
+The Device Manager was checked to see if any devices needed a driver update. 
+The Communication Port (COM1) drivers were updated by automatically searching for drivers. 
+New versions of the firmware were searched for on the manufacturer's website. 
+The router was updated. 
+Windows protection was ensured to be up to date. 
+App & Browser Control was enabled.
+A full scan was performed in the Virus & threat Protection settings. 
+The Windows Firewall was configured with a few rules.
 
 ### Managing Workstations with Management Tools (Appendix 2)
 
@@ -25,7 +36,10 @@ As a separate practical example, the OpenStego encryption task of the Testout Se
 
 ## Managing Cybersecurity Risks
 
-Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. The project combined these by observing Nmap scans with Wireshark. A lightweight network monitoring plan was created (Appendix 4a). The physio-web-pages application was launched on the workstation and its traffic and vulnerabilities were examined.
+Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. 
+The project combined these by observing Nmap scans with Wireshark. 
+A lightweight network monitoring plan was created (Appendix 4a). 
+The physio-web-pages application was launched on the workstation and its traffic and vulnerabilities were examined.
 
 ### Monitoring the Information Network Using Various Analysis Tools
 ### Scanning for Vulnerabilities of the Network

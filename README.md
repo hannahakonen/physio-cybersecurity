@@ -2,6 +2,8 @@
 
 The IT environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. The company has introduction and appointment web pages (see repository physio-web-pages). The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
 
+## Project Requirements
+
 Cyber threat management and protection measures are used by protecting devices with updates and software, managing workstations with management tools, and comparing different encryption methods and selecting appropriate ones.
 
 Cybersecurity risks are managed by monitoring the information network using various analysis tools, scanning the network for vulnerabilities, and verifying the vulnerabilities of the systems. In addition, development proposals are made to improve cybersecurity.

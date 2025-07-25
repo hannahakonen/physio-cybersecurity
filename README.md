@@ -45,7 +45,14 @@ Powershell was used to practice automating tasks (searching for users by name, s
 
 ### Comparing and Selecting Encryption Methods (Appendix 3)
 
-Different encryption methods were compared and the encryption methods needed for the customer environment were mapped and planned: Bitlocker protection for workstations, HTTPS/TLS protection for communication on appointment pages, VPN for remote processing of customer data, S/MIME for email encryption, Bitwarden for password protection, Node.js' bcrypt library for password hashing and Windows Hello for MFA. 
+Different encryption methods were compared and the encryption methods needed for the customer environment were mapped and planned: 
+- Bitlocker protection for workstations
+- HTTPS/TLS protection for communication on appointment pages
+- VPN for remote processing of customer data
+- S/MIME for email encryption
+- Bitwarden for password protection
+- Node.js' bcrypt library for password hashing
+- Windows Hello for MFA 
 
 As a case example, the implementation of Bitlocker as a GPO was planned and started. 
 

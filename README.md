@@ -36,21 +36,29 @@ The Windows Firewall was configured with a few rules.
 ### Managing Workstations with Management Tools (Appendix 2)
 
 Windows workstation management in a domain environment was implemented using Windows server management consoles, group policies (GPO) and Powershell. 
+
 The following management consoles were used: Server Manager, ADUC, ADDS, FSRM, DHCP, DNS Manager, Event Viewer, GPMC, Windows Server Backup and Print Management. 
+
 GPO was used to implement, for example, password length settings, daily updates of workstations and department-specific public folders. 
+
 Powershell was used to practice automating tasks (searching for users by name, searching for users in a specific OU, adding a user).
 
 ### Comparing and Selecting Encryption Methods (Appendix 3)
 
 Different encryption methods were compared and the encryption methods needed for the customer environment were mapped and planned: Bitlocker protection for workstations, HTTPS/TLS protection for communication on appointment pages, VPN for remote processing of customer data, S/MIME for email encryption, Bitwarden for password protection, Node.js' bcrypt library for password hashing and Windows Hello for MFA. 
+
 As a case example, the implementation of Bitlocker as a GPO was planned and started. 
+
 As a separate practical example, the OpenStego encryption task of the Testout Security Pro course was done.
 
 ## Managing Cybersecurity Risks
 
 Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. 
+
 The project combined these by observing Nmap scans with Wireshark. 
+
 A lightweight network monitoring plan was created (Appendix 4a). 
+
 The physio-web-pages application was launched on the workstation and its traffic and vulnerabilities were examined.
 
 ### Monitoring the Information Network Using Various Analysis Tools

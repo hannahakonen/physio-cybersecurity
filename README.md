@@ -81,7 +81,14 @@ A summary (Appendix 6) of the results and reports of the Nmap and Nessus Essenti
 
 Nmap was used only to scan the workstation with and without [the web application](https://github.com/hannahakonen/physio-web-pages/tree/main). Nessus was used also to scan the server. The vulnerabilities detected by Nmap and Nessus were consistent.
 
-### Making Development Proposals to Improve Cybersecurity
+### Making Development Suggestions to Improve Cybersecurity
+
+Development suggestions for improving information security based on vulnerability scans (Nmap, Nessus Essentials) are presented in Appendix 6. 
+
+- Support for medium-strength SSL encryption found on port 443 of the server must be removed. 
+- The outdated SSL certificate must be renewed and support for old TSL versions must be removed.
+- The old SMB version found on port 445 of the workstation must be handled and SMB login must be forced.
+- [The web application](https://github.com/hannahakonen/physio-web-pages/tree/main) must implement the Helmet.js middleware of the Express framework, which protects Express-based applications by setting http headers correctly. The code must also block unwanted http methods, force HTTPS, and set the response header related to the content protection policy to deny. Injection vulnerabilities in the NoSQL database must still be investigated.
 
 ## Promoting Cybersecurity solutions
 

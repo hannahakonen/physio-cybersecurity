@@ -96,10 +96,10 @@ Development suggestions for improving information security based on vulnerabilit
 
 The company processes healthcare customer and patient data, the laws and regulations of which are presented in Appendix 7. In Finland these include:
 
-- the Act on the Processing of Customer Data in Social and Healthcare Services (703/2023)
-- the EU General Data Protection Regulation (2016/679, GDPR)
-- the Data Protection Act (1050/2018)
-- the Act on Healthcare Professionals (559/1994)
+- The Act on the Processing of Customer Data in Social and Healthcare Services (703/2023)
+- The EU General Data Protection Regulation (2016/679, GDPR)
+- The Data Protection Act (1050/2018)
+- The Act on Healthcare Professionals (559/1994)
 
 In addition, Chapter 38 of the Criminal Code (39/1889) “Crimes related to information technology” defines data breaches, unauthorized use of data and crimes against information systems, and the Act on Electronic Identification and Trust Services (533/2016) regulates strong electronic identification.
 

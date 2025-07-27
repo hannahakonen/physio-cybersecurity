@@ -121,9 +121,8 @@ For Physio, the risk with various threats is that customer and patient data coul
 
 ### Following Information Security Guidelines in The Work Duties
 
-A short and concise preliminary information security guide was made.
+A short and concise preliminary information security guide was implemented for the client company (Appendix 9).
 
 ### Instructing in Cybersecurity or Data Protection Matters
 
-
-
+A Security Guidance PowerPoint presentation was made on three small cybersecurity issues to consider in practical work for the company's employees: phishing emails, email encryption in Outlook, and implementing Bitwarden (Appendix 10).

@@ -62,12 +62,15 @@ As a separate practical example, the OpenStego encryption task of the Testout Se
 
 Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. The project combined these by observing Nmap scans with Wireshark. 
 
-A lightweight network monitoring plan was created (Appendix 4a). 
-
-The physio-web-pages application was launched on the workstation and its traffic and vulnerabilities were examined.
-
 ### Monitoring the Information Network Using Various Analysis Tools
+
+A lightweight network monitoring plan was created (Appendix 4a) and the network traffic of the workstation (Appendix 4b) and [the web application](https://github.com/hannahakonen/physio-web-pages/tree/main) running on it (Appendix 4c) was analyzed using Wireshark. At the same time, scans were performed on the workstation using Nmap on a Kali Linux machine. The results of the version scan are presented in full in Appendix 4d. Nmap scans and, for example, the database connections of the Physio web application to the MongoDB Atlas service were detected using Wireshark.
+
+In addition, login attempts were already examined in Appendix 2 by modifying the Default Domain Conrollers Policy GPO to implement a check of both successful and unsuccessful domain logins and by viewing logins in the Server Manager Event Viewer console (Windows Logs > Security).
+
 ### Scanning for Vulnerabilities of the Network
+
+
 ### Verifying the Vulnerabilities of the Systems
 ### Making Development Proposals to Improve Cybersecurity
 

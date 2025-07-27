@@ -8,7 +8,7 @@ The company processes customers' health data, which requires understanding and g
 
 The project report (physio-cybersecurity) and the appendices (1-10) are written in Finnish and can be found in the doc folder. 
 
-The (unfinished) summary in English can be found below.
+The summary in English can be found below.
 
 ## Using Cyber Threat Management and Protection Measures
 

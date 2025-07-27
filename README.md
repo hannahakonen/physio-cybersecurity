@@ -32,7 +32,6 @@ A full scan was performed in the Virus & threat Protection settings.
 
 The Windows Firewall was configured with a few rules.
 
-
 ### Managing Workstations with Management Tools (Appendix 2)
 
 Windows workstation management in a domain environment was implemented using Windows server management consoles, group policies (GPO) and Powershell. 
@@ -77,6 +76,11 @@ Based on the network monitoring plan, a vulnerability scan was carried out on th
 The investigation of database injection vulnerabilities in the Physio web application was started with Burp Suite (Appendix 5h).
 
 ### Verifying the Vulnerabilities of the Systems
+
+A summary (Appendix 6) of the results and reports of the Nmap and Nessus Essentials vulnerability scans from the previous sections (Appendices 4b-d, 5b) was made here.
+
+Nmap was used only to scan the workstation with and without [the web application](https://github.com/hannahakonen/physio-web-pages/tree/main). Nessus was used also to scan the server. The vulnerabilities detected by Nmap and Nessus were consistent.
+
 ### Making Development Proposals to Improve Cybersecurity
 
 ## Promoting Cybersecurity solutions

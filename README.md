@@ -2,7 +2,7 @@
 
 The domain environment including Windows server 2022 and Windows 10 workstations is simulated in VMware with virtual machines and the vulnerabilities are scanned with a Kali Linux machine. 
 
-The company has introduction and appointment web pages (see repository physio-web-pages). 
+The company has introduction and appointment [web pages](https://github.com/hannahakonen/physio-web-pages/tree/main). 
 
 The company processes customers' health data, which requires understanding and guidance on laws related to cybersecurity.
 
@@ -60,9 +60,7 @@ As a separate practical example, the OpenStego encryption task of the Testout Se
 
 ## Managing Cybersecurity Risks
 
-Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. 
-
-The project combined these by observing Nmap scans with Wireshark. 
+Cybersecurity risks are managed, for example, by monitoring the network and scanning for vulnerabilities with various programs. The project combined these by observing Nmap scans with Wireshark. 
 
 A lightweight network monitoring plan was created (Appendix 4a). 
 

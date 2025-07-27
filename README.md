@@ -93,7 +93,32 @@ Development suggestions for improving information security based on vulnerabilit
 ## Promoting Cybersecurity solutions
 
 ### Knowing Laws, Regulations and Other Official Regulations Related to Information Security and Data Protection
+
+The company processes healthcare customer and patient data, the laws and regulations of which are presented in Appendix 7. In Finland these include:
+
+- the Act on the Processing of Customer Data in Social and Healthcare Services (703/2023)
+- the EU General Data Protection Regulation (2016/679, GDPR)
+- the Data Protection Act (1050/2018)
+- the Act on Healthcare Professionals (559/1994)
+
+In addition, Chapter 38 of the Criminal Code (39/1889) “Crimes related to information technology” defines data breaches, unauthorized use of data and crimes against information systems, and the Act on Electronic Identification and Trust Services (533/2016) regulates strong electronic identification.
+
+According to the Customer Data Act, a healthcare service provider must register as a user of Kanta services if customer data is processed in an electronic customer or patient information system. Physio is obliged, among other things, to use an information system that meets the essential requirements and to prepare a data security plan. 
+
+In accordance with the GDPR, Physio must also make a public data protection statement that explains what data is collected and why, how long the data is stored, and a description of the rights of the data subject.
+
 ### Illustrating Cyber Threats and Corresponding Risks
+
+The most common and critical security threats today and the risks they pose to the client company were explained and described with brief examples (Appendix 8).
+
+According to the Cybersecurity Center's Small Business Cybersecurity Guide, the most common cyber threats are phishing, malware, and ransomware.
+
+ChatGPT also lists malware (e.g. ransomware), phishing, username and password breaches, insider threats, failure to manage updates and vulnerabilities, and security risks in IoT devices.
+
+In the OWASP Foundation's 2021 Top 10 list, the most common web application security risks were broken access control, cryptographic flaws, injections, insecure design, and incorrect security settings.
+
+For Physio, the risk with various threats is that customer and patient data could end up in the wrong hands, resulting in sanctions, reputational damage, and operational disruptions.
+
 ### Following Information Security Guidelines in The Work Duties
 
 A short and concise preliminary information security guide was made.

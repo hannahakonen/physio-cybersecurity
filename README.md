@@ -70,6 +70,11 @@ In addition, login attempts were already examined in Appendix 2 by modifying the
 
 ### Scanning for Vulnerabilities of the Network
 
+The Kali Linux machine's Nmap was used to scan for possible open network connections on the workstation while analyzing with Wireshark and found the IP addresses, open ports and Windows operating system in use (Appendix 4b) as well as the Node.js Express framework used in [the web application](https://github.com/hannahakonen/physio-web-pages/tree/main) (Appendix 4c, 4d).
+
+Based on the network monitoring plan, a vulnerability scan was carried out on the server with Nessus Essentials (Appendix 5b). The Nessus scan reports are presented in Appendices 5c-f (5e too large file, not included in the Github material).
+
+The investigation of database injection vulnerabilities in the Physio web application was started with Burp Suite (Appendix 5h).
 
 ### Verifying the Vulnerabilities of the Systems
 ### Making Development Proposals to Improve Cybersecurity
